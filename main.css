@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&amp;display=swap");
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+}
+
+::selection
+{
+    background-color: orange;
+    color: white;
+}
+
+a
+{
+  text-decoration: none;
+  color: white;
+}
+.main_body {
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.cv_body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#220ddd), to(#d32626));
+  background-image: linear-gradient(to bottom, #220ddd, #d32626);
+  position: relative;
+}
+
+.left_side {
+  background: rgba(207, 201, 201, 0.4);
+  border-radius: 4%;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.right_side {
+  background-color: whitesmoke;
+  border-radius: 5%;
+  -webkit-transform: translateX(1%);
+          transform: translateX(1%);
+}
+
+.my_name {
+  color: white;
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
+.my_image {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.my_image img {
+  width: 23rem;
+  height: 25rem;
+  border-radius: 50%;
+  border: 0.5rem solid whitesmoke;
+  z-index: 12;
+  -webkit-transform: translateY(-20%);
+          transform: translateY(-20%);
+}
+
+.image_main {
+  border-radius: 5%;
+  border: 0.3rem solid whitesmoke;
+  background: rgba(207, 201, 201, 0.4);
+}
+
+.email_part {
+  border-radius: 22%;
+  background: rgba(207, 201, 201, 0.4);
+  width: 35rem;
+}
+
+.education_part {
+  background: #7c048b;
+  width: 35rem;
+}
+
+.line {
+  width: 30rem;
+  color: #7909a5;
+}
+
+.training_test {
+  color: #7909a5;
+}
+
+.heading_background {
+  background: #22171a;
+  color: #d8d8c8;
+}
+
+.table_bg {
+  background-color: #ebe5ee;
+}
+
+.my_image2 {
+  width: 9rem;
+  height: 10rem;
+  margin-left: 3.2rem;
+}
+
+.star .fas {
+  color: #7c048b;
+}
+
+@media (max-width: 1500px) {
+  html {
+    font-size: 59%;
+  }
+}
+
+@media (max-width: 1400px) {
+  html {
+    font-size: 57%;
+  }
+}
+
+@media (max-width: 1300px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 1100px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 42%;
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 39%;
+  }
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 31%;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 25%;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 20%;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 17%;
+  }
+}
+
+@media (max-width: 300px) {
+  html {
+    font-size: 12%;
+  }
+}
+
+@media (max-width: 200px) {
+  html {
+    font-size: 15%;
+  }
+}
+/*# sourceMappingURL=main.css.map */
